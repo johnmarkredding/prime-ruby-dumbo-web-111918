@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
   prime = true
-  count = num / 2
+  count = 0
   if num != 1
     while (count <= (num / 2) && prime != false)
       if num % count == 0
