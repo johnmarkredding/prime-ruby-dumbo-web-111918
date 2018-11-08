@@ -7,7 +7,7 @@ def prime?(num)
     prime = true
   else
     count = 2
-    while (count < num && prime == true)
+    while (count < ((num / 2) + 1)  && prime == true)
       if num % count == 0
         prime = false
       end
