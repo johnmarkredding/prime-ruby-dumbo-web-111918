@@ -3,7 +3,7 @@ def prime?(num)
   prime = true
   count = num / 2
   if num != 1
-    while (count != 1 || prime != false)
+    while (prime != false)
       if num % count == 0
         prime = false
       end
