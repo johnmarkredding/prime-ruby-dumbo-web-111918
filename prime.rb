@@ -10,6 +10,7 @@ def prime?(num)
       count += 1
     end
   elsif num == 2
+    prime = true
   else
     prime = false
   end
