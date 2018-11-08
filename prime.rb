@@ -9,7 +9,8 @@ def prime?(num)
       end
       count += 1
     end
-  else
+  elsif num == 2
+else
     prime = false
   end
   prime
